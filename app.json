@@ -15,7 +15,7 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "18886788",
+        "value": "",
         "required": true
       },
       "API_HASH": {
@@ -30,17 +30,17 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "5326237079:AAE1Bid6RZtDIPcOnE4pTaIyDLV7d6X6iZ8",
+        "value": "",
         "required": true
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Yukki's database for you.",
-        "value": "mongodb+srv://userbot:userbot@cluster0.mbdpa.mongodb.net/test?retryWrites=true&w=majority",
+        "value": "",
         "required": true
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. Please don't use ascii characters",
-        "value": "noir",
+        "value": "",
         "required": true
       },
       "OWNER_ID": {
@@ -50,7 +50,7 @@
       },
       "STRING_SESSION": {
         "description": "A Pyrogram String Session. One Assistant is Compulsory.",
-        "value": "BQBUyc6vFqg9uX5vn918v6KhUXgkn0meam-ka4lZhhPGVB9Hvtdso-UjQrkTRpGFn7QnZcPdom-q6usiSYJMre5F7gy7zhQodfvqFOlNHcfMIkr5emGPdhubTAYUBoZWB93t8LEYKJUkKhMgPenomZYAo-5n9t5vh5XVW-rYPWfeSMDwq6buhYQyfELM6DThpCAkTB7tQ0hGdH9IvEseNUiAGbhc5RvhgIUjUzM2PMOlY-Zeil_ng2UdwhmLzBZl0KdkOBg03PTXXu6HoDctc1ZxH0wZLOeIYKXyVkM2oOsHI-T_3vtrMScwdowWQmq-xqb6twfyerFpNH4n-MNlgdp7dRxOsgA",
+        "value": "",
         "required": true
       },
       "HEROKU_API_KEY": {
@@ -65,7 +65,7 @@
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
-        "value": "-1001722395382",
+        "value": "",
         "required": true
       },
       "UPSTREAM_REPO": {
