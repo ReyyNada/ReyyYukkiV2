@@ -20,7 +20,7 @@
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "e9108691b53b9dc16fc09f36f4ede98d",
+        "value": "",
         "required": true
       },
       "AUTO_LEAVING_ASSISTANT": {
