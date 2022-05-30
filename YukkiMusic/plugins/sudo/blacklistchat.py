@@ -38,7 +38,7 @@ async def blacklist_chat_func(client, message: Message, _):
     if blacklisted:
         await message.reply_text(_["black_3"])
     else:
-        await message.reply_text("Something wrong happened.")
+        await message.reply_text("Sesuatu yang salah terjadi.")
     try:
         await app.leave_chat(chat_id)
     except:
@@ -56,7 +56,7 @@ async def white_funciton(client, message: Message, _):
     whitelisted = await whitelist_chat(chat_id)
     if whitelisted:
         return await message.reply_text(_["black_6"])
-    await message.reply_text("Something wrong happened.")
+    await message.reply_text("Sesuatu yang salah terjadi.")
 
 
 @app.on_message(
