@@ -39,16 +39,16 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=_["PL_B_2"],
+                text=_["×𝐏𝐥𝐚𝐲 𝐀𝐮𝐝𝐢𝐨×"],
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_3"], switch_inline_query_current_chat=""
+                text=_["×𝐏𝐥𝐚𝐲 𝐕𝐢𝐝𝐞𝐨×"], switch_inline_query_current_chat=""
             ),
         ],
         [
             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
+                text=_["CLOSEMENU_BUTTON"], callback_data="×𝐂𝐥𝐨𝐬𝐞×"
             )
         ],
     ]
@@ -66,10 +66,10 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=_["PL_B_3"], switch_inline_query_current_chat=""
+                text=_["×𝐏𝐥𝐚𝐲 𝐕𝐢𝐝𝐞𝐨×"], switch_inline_query_current_chat=""
             ),
             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
+                text=_["CLOSEMENU_BUTTON"], callback_data="×𝐂𝐥𝐨𝐬𝐞×"
             ),
         ],
     ]
@@ -84,7 +84,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
                 callback_data=f"MusicStream {videoid}|{user_id}|a|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
-                text=_["P_B_2"],
+                text=_["×𝐏𝐥𝐚𝐲 𝐀𝐮𝐝𝐢𝐨×"],
                 callback_data=f"MusicStream {videoid}|{user_id}|v|{channel}|{fplay}",
             ),
         ],
@@ -102,16 +102,16 @@ def stream_markup(_, videoid):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["PL_B_2"],
+                text=_["×𝐏𝐥𝐚𝐲 𝐀𝐮𝐝𝐢𝐨×"],
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_3"], switch_inline_query_current_chat=""
+                text=_["×𝐏𝐥𝐚𝐲 𝐕𝐢𝐝𝐞𝐨×"], switch_inline_query_current_chat=""
             ),
         ],
         [
             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
+                text=_["CLOSEMENU_BUTTON"], callback_data="×𝐂𝐥𝐨𝐬𝐞×"
             )
         ],
     ]
@@ -122,10 +122,10 @@ def telegram_markup(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["PL_B_3"], switch_inline_query_current_chat=""
+                text=_["×𝐏𝐥𝐚𝐲 𝐕𝐢𝐝𝐞𝐨×"], switch_inline_query_current_chat=""
             ),
             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
+                text=_["CLOSEMENU_BUTTON"], callback_data="×𝐂𝐥𝐨𝐬𝐞×"
             ),
         ],
     ]
@@ -140,7 +140,7 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
                 callback_data=f"YukkiPlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
-                text=_["P_B_2"],
+                text=_["×𝐏𝐥𝐚𝐲 𝐀𝐮𝐝𝐢𝐨×"],
                 callback_data=f"YukkiPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
             ),
         ],
@@ -158,7 +158,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["P_B_3"],
+                text=_["×𝐏𝐥𝐚𝐲 𝐕𝐢𝐝𝐞𝐨×"],
                 callback_data=f"LiveStream {videoid}|{user_id}|{mode}|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
@@ -181,7 +181,7 @@ def slider_markup(
                 callback_data=f"MusicStream {videoid}|{user_id}|a|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
-                text=_["P_B_2"],
+                text=_["×𝐏𝐥𝐚𝐲 𝐀𝐮𝐝𝐢𝐨×"],
                 callback_data=f"MusicStream {videoid}|{user_id}|v|{channel}|{fplay}",
             ),
         ],
