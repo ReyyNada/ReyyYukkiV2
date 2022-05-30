@@ -217,7 +217,7 @@ async def play_commnd(
                 and not config.SPOTIFY_CLIENT_SECRET
             ):
                 return await mystic.edit_text(
-                    "This bot isn't able to play spotify queries. Please ask my owner to enable spotify."
+                    "Bot ini tidak dapat memainkan kueri spotify.  Tolong minta pemilik saya untuk mengaktifkan spotify."
                 )
             if "track" in url:
                 try:
@@ -338,11 +338,11 @@ async def play_commnd(
                 await Yukki.stream_call(url)
             except NoActiveGroupCall:
                 await mystic.edit_text(
-                    "There's an issue with the bot. Please report it to my owner and ask them to check logger group."
+                    "Ada masalah dengan bot.  Tolong laporkan ke pemilik saya dan minta mereka untuk memeriksa grup logger."
                 )
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    "Please turn on Voice Chat.. Bot is not able to stream urls..",
+                    "Silakan aktifkan Obrolan Suara.. Bot tidak dapat melakukan streaming url..",
                 )
             except Exception as e:
                 return await mystic.edit_text(
@@ -591,7 +591,7 @@ async def play_music(client, CallbackQuery, _):
 async def anonymous_check(client, CallbackQuery):
     try:
         await CallbackQuery.answer(
-            "You're an Anonymous Admin\n\nGo to your group's setting \n-> Administrators List \n-> Click on your name \n-> uncheck REMAIN ANONYMOUS button there.",
+            "Anda adalah Admin Anonim\n\nBuka pengaturan grup Anda \n-> Daftar Administrator \n-> Klik nama Anda \n-> hapus centang pada tombol TETAP ANONIM di sana..",
             show_alert=True,
         )
     except:
