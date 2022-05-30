@@ -34,7 +34,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
     return buttons
 
 
-def stream_markup(_, videoid):
+def stream_markup_timer(_, videoid):
     buttons = [
         [
             InlineKeyboardButton(
@@ -54,7 +54,7 @@ def stream_markup(_, videoid):
     return buttons
 
 
-def telegram_markup(_):
+def telegram_markup_timer(_):
     buttons = [
         [
             InlineKeyboardButton(
