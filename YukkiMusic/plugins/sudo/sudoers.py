@@ -30,7 +30,7 @@ SUDOUSERS_COMMAND = get_command("SUDOUSERS_COMMAND")
 async def useradd(client, message: Message, _):
     if MONGO_DB_URI is None:
         return await message.reply_text(
-            "**Due to bot's privacy issues, You can't manage sudo users when you're using Yukki's Database.\n\n Please fill your MONGO_DB_URI in your vars to use this feature**"
+            "**Karena masalah privasi bot, Anda tidak dapat mengelola pengguna sudo saat Anda menggunakan Database XYukki.\n\n Harap isi MONGO_DB_URI Anda di vars Anda untuk menggunakan fitur ini**"
         )
     if not message.reply_to_message:
         if len(message.command) != 2:
@@ -76,7 +76,7 @@ async def useradd(client, message: Message, _):
 async def userdel(client, message: Message, _):
     if MONGO_DB_URI is None:
         return await message.reply_text(
-            "**Due to bot's privacy issues, You can't manage sudo users when you're using Yukki's Database.\n\n Please fill your MONGO_DB_URI in your vars to use this feature**"
+            "**Karena masalah privasi bot, Anda tidak dapat mengelola pengguna sudo saat Anda menggunakan Database XYukki.\n\n Harap isi MONGO_DB_URI Anda di vars Anda untuk menggunakan fitur ini**"
         )
     if not message.reply_to_message:
         if len(message.command) != 2:
