@@ -97,9 +97,9 @@ async def ping_com(client, message: Message, _):
         else:
             IMAGE = get_image(videoid)
     send = (
-        "**⌛️Duration:** Unknown Duration Stream\n\nClick on button below to get whole queued list."
+        "**⌛️Duration:** Aliran Durasi Tidak Diketahui\n\nKlik tombol di bawah untuk mendapatkan seluruh daftar antrian."
         if DUR == "Unknown"
-        else "\nClick on button below to get whole queued list."
+        else "\nKlik tombol di bawah untuk mendapatkan seluruh daftar antrian."
     )
     cap = f"""**{config.MUSIC_BOT_NAME} Player**
 
