@@ -106,7 +106,7 @@ def stream_markup(_, videoid):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text=_["×𝐏𝐥𝐚𝐲 𝐕𝐢𝐝𝐞𝐨×"], switch_inline_query_current_chat=""
+                text=_["P_B_3"], switch_inline_query_current_chat=""
             ),
         ],
         [
