@@ -34,8 +34,8 @@ HELP_1 = """✅**<u>Admin Commands:</u>**
 Pengguna Auth dapat menggunakan perintah admin tanpa hak admin di obrolan Anda.
 
 /auth [Username] - Tambahkan pengguna ke AUTH LIST grup.
- /unauth [Nama Pengguna] - Menghapus pengguna dari DAFTAR AUTH grup.
- /authusers - Periksa DAFTAR AUTH grup."""
+/unauth [Nama Pengguna] - Menghapus pengguna dari DAFTAR AUTH grup.
+/authusers - Periksa DAFTAR AUTH grup."""
 
 
 HELP_2 = """✅<u>**Play Commands:**</u>
@@ -49,28 +49,28 @@ ForcePlay Commands = playforce , vplayforce , cplayforce
 ***force*** adalah singkatan dari force play.
 /play or /vplay or /cplay  - Bot akan mulai memainkan kueri yang Anda berikan di obrolan suara atau Streaming tautan langsung di obrolan suara.
 
- /playforce atau /vplayforce atau /cplayforce - Force Play menghentikan trek yang sedang diputar di obrolan suara dan mulai memutar trek yang dicari secara instan tanpa mengganggu/mengosongkan antrean.
+/playforce atau /vplayforce atau /cplayforce - Force Play menghentikan trek yang sedang diputar di obrolan suara dan mulai memutar trek yang dicari secara instan tanpa mengganggu/mengosongkan antrean.
 
- /channelplay [Nama pengguna atau id obrolan] atau [Disable] - Hubungkan saluran ke grup dan streaming musik di obrolan suara saluran dari grup Anda.
+/channelplay [Nama pengguna atau id obrolan] atau [Disable] - Hubungkan saluran ke grup dan streaming musik di obrolan suara saluran dari grup Anda.
 
 
 ✅**<u>Bot's Server Playlists:</u>**
 /playlist  - Periksa Daftar Putar Tersimpan Anda Di Server.
- /deleteplaylist - Hapus semua musik yang disimpan di daftar putar Anda
- /play - Mulai mainkan Daftar Putar Tersimpan Anda dari Server."""
+/deleteplaylist - Hapus semua musik yang disimpan di daftar putar Anda
+/play - Mulai mainkan Daftar Putar Tersimpan Anda dari Server."""
 
 
 HELP_3 = """✅<u>**Bot Commands:**</u>
 
 /stats - Dapatkan 10 Trek Global Stats Teratas, 10 Pengguna Bot Teratas, 10 Obrolan Teratas di bot, 10 Teratas Dimainkan dalam obrolan, dll.
 
- /sudolist - Periksa Pengguna Sudo dari Bot Musik Yukki
+/sudolist - Periksa Pengguna Sudo dari Bot Musik Yukki
 
- /lyrics [Music Name] - Mencari Lirik untuk Musik tertentu di web.
+/lyrics [Music Name] - Mencari Lirik untuk Musik tertentu di web.
 
- /song [Nama Trek] atau [Tautan YT] - Unduh trek apa pun dari youtube dalam format mp3 atau mp4.
+/song [Nama Trek] atau [Tautan YT] - Unduh trek apa pun dari youtube dalam format mp3 atau mp4.
 
- /player - Dapatkan Panel Bermain interaktif.
+/player - Dapatkan Panel Bermain interaktif.
 
 **c** stands for channel play.
 
@@ -78,8 +78,8 @@ HELP_3 = """✅<u>**Bot Commands:**</u>
 
 HELP_4 = """✅<u>**Extra  Commands:**</u>
 /start - Mulai Bot Musik.
- /help - Dapatkan Menu Helper Perintah dengan penjelasan rinci tentang perintah.
- /ping- Ping Bot dan periksa statistik Ram, Cpu, dll dari Bot.
+/help - Dapatkan Menu Helper Perintah dengan penjelasan rinci tentang perintah.
+/ping- Ping Bot dan periksa statistik Ram, Cpu, dll dari Bot.
 
 ✅<u>**Group Settings:**</u>
 /settings - Dapatkan pengaturan grup lengkap dengan tombol sebaris
@@ -108,26 +108,26 @@ HELP_4 = """✅<u>**Extra  Commands:**</u>
 
  3️⃣ Jenis Putar [Semua Orang atau Admin] - Jika admin, hanya admin yang ada di grup yang dapat memutar musik di obrolan suara."""
 
- HELP_5 = """🔰TAMBAH & HAPUS PENGGUNA SUDO :
- /addsudo [Nama pengguna atau Balas ke pengguna]
- /delsudo [Nama pengguna atau Balas ke pengguna]
+HELP_5 = """🔰TAMBAH & HAPUS PENGGUNA SUDO :
+/addsudo [Nama pengguna atau Balas ke pengguna]
+/delsudo [Nama pengguna atau Balas ke pengguna]
 
 🛃**<u>HEROKU:</u>**
 /usage - Dyno Usage.
 
 🌐**<u>CONFIG VARS:</u>**
 /get_var - Dapatkan config var dari Heroku atau .env.
- /del_var - Hapus semua var di Heroku atau .env.
- /set_var [Var Name] [Value] - Atur Var atau Perbarui Var di heroku atau .env.  Pisahkan Var dan Nilainya dengan spasi.
+/del_var - Hapus semua var di Heroku atau .env.
+/set_var [Var Name] [Value] - Atur Var atau Perbarui Var di heroku atau .env.  Pisahkan Var dan Nilainya dengan spasi.
 
- PERINTAH BOT:
- /reboot - Nyalakan ulang Bot Anda.
- /update - Perbarui Bot.
- /speedtest - Periksa kecepatan server
- /maintenance [aktifkan / nonaktifkan]
- /logger [aktifkan / nonaktifkan] - Bot mencatat kueri yang dicari di grup logger.
- /get_log [Jumlah Baris] - Dapatkan log bot Anda dari heroku atau vps.  Bekerja untuk keduanya.
- /autoend [enable|disable] - Aktifkan Auto stream end setelah 3 menit jika tidak ada yang mendengarkan.
+PERINTAH BOT:
+/reboot - Nyalakan ulang Bot Anda.
+/update - Perbarui Bot.
+/speedtest - Periksa kecepatan server
+/maintenance [Enable / Disable]
+/logger [Enable / Disable] - Bot mencatat kueri yang dicari di grup logger.
+/get_log [Jumlah Baris] - Dapatkan log bot Anda dari heroku atau vps.  Bekerja untuk keduanya.
+/autoend [enable|disable] - Aktifkan Auto stream end setelah 3 menit jika tidak ada yang mendengarkan.
 
 📈**<u>STATS COMMANDS:</u>**
 /activevoice - Periksa obrolan suara aktif di bot.
@@ -140,39 +140,39 @@ HELP_4 = """✅<u>**Extra  Commands:**</u>
 /blacklistedchat - Check all blacklisted chats.
 
 👤**<u>FUNGSI BLACKLIST CHAT:**
- /blacklistchat [CHAT_ID] - Daftar hitam obrolan apa pun dari menggunakan Bot Musik
- /whitelistchat [CHAT_ID] - Daftar putih obrolan apa pun yang masuk daftar hitam dari menggunakan Bot Musik
- /blacklistedchat - Periksa semua obrolan yang masuk daftar hitam.
+/blacklistchat [CHAT_ID] - Daftar hitam obrolan apa pun dari menggunakan Bot Musik
+/whitelistchat [CHAT_ID] - Daftar putih obrolan apa pun yang masuk daftar hitam dari menggunakan Bot Musik
+/blacklistedchat - Periksa semua obrolan yang masuk daftar hitam.
 
- FUNGSI TERBLOKIR:
- /block [Nama Pengguna atau Balas ke pengguna] - Mencegah pengguna menggunakan perintah bot.
- /unblock [Nama Pengguna atau Balas ke pengguna] - Hapus pengguna dari Daftar Blokir Bot.
- /blockedusers - Periksa Daftar Pengguna yang diblokir
+FUNGSI TERBLOKIR:
+/block [Nama Pengguna atau Balas ke pengguna] - Mencegah pengguna menggunakan perintah bot.
+/unblock [Nama Pengguna atau Balas ke pengguna] - Hapus pengguna dari Daftar Blokir Bot.
+/blockedusers - Periksa Daftar Pengguna yang diblokir
 
- FUNGSI GBAN:
- /gban [Nama Pengguna atau Balas ke pengguna] - Gban pengguna dari obrolan yang dilayani bot dan hentikan dia menggunakan bot Anda.
- /ungban [Nama Pengguna atau Balas ke pengguna] - Hapus pengguna dari Daftar gbanned Bot dan izinkan dia menggunakan bot Anda
- /gbannedusers - Periksa Daftar Pengguna Gbanned
+FUNGSI GBAN:
+/gban [Nama Pengguna atau Balas ke pengguna] - Gban pengguna dari obrolan yang dilayani bot dan hentikan dia menggunakan bot Anda.
+/ungban [Nama Pengguna atau Balas ke pengguna] - Hapus pengguna dari Daftar gbanned Bot dan izinkan dia menggunakan bot Anda
+/gbannedusers - Periksa Daftar Pengguna Gbanned
 
 🎥**<u>FUNGSI VIDEOCALL:**
- /set_video_limit [Jumlah Obrolan] - Tetapkan Jumlah Obrolan maksimum yang diizinkan untuk Panggilan Video dalam satu waktu.  Default untuk 3 obrolan.
- /videomode [download|m3u8] - Jika mode unduh diaktifkan, Bot akan mengunduh video alih-alih memutarnya dalam bentuk M3u8.  Secara default ke M3u8.  Anda dapat menggunakan mode unduhan saat kueri apa pun tidak diputar dalam mode m3u8.
+/set_video_limit [Jumlah Obrolan] - Tetapkan Jumlah Obrolan maksimum yang diizinkan untuk Panggilan Video dalam satu waktu.  Default untuk 3 obrolan.
+/videomode [download|m3u8] - Jika mode unduh diaktifkan, Bot akan mengunduh video alih-alih memutarnya dalam bentuk M3u8.  Secara default ke M3u8.  Anda dapat menggunakan mode unduhan saat kueri apa pun tidak diputar dalam mode m3u8.
 
- ️FUNGSI BOT SWASTA:
- /otorisasi [CHAT_ID] - Izinkan obrolan untuk menggunakan bot Anda.
- /unauthorize [CHAT_ID] - Melarang obrolan menggunakan bot Anda.
- /authorized - Periksa semua obrolan bot Anda yang diizinkan.
+FUNGSI BOT SWASTA:
+/otorisasi [CHAT_ID] - Izinkan obrolan untuk menggunakan bot Anda.
+/unauthorize [CHAT_ID] - Melarang obrolan menggunakan bot Anda.
+/authorized - Periksa semua obrolan bot Anda yang diizinkan.
 
- FUNGSI PENYIARAN:
- /broadcast [Pesan atau Balas Pesan] - Menyiarkan pesan apa pun ke Obrolan yang Dilayani Bot.
+FUNGSI PENYIARAN:
+/broadcast [Pesan atau Balas Pesan] - Menyiarkan pesan apa pun ke Obrolan yang Dilayani Bot.
 
 <u>opsi untuk siaran:
- -pin : Ini akan menyematkan pesan Anda
- -pinloud: Ini akan menyematkan pesan Anda dengan pemberitahuan keras
- -user : Ini akan menyiarkan pesan Anda ke pengguna yang telah memulai bot Anda.
- -assistant : Ini akan menyiarkan pesan Anda dari akun asisten bot Anda.
- -nobot: Ini akan memaksa bot Anda untuk tidak menyiarkan pesan
+-pin : Ini akan menyematkan pesan Anda
+-pinloud: Ini akan menyematkan pesan Anda dengan pemberitahuan keras
+-user : Ini akan menyiarkan pesan Anda ke pengguna yang telah memulai bot Anda.
+-assistant : Ini akan menyiarkan pesan Anda dari akun asisten bot Anda.
+-nobot: Ini akan memaksa bot Anda untuk tidak menyiarkan pesan
 
- Contoh: `/broadcast -user -assistant -pin Hello Testing`
+Contoh: `/broadcast -user -assistant -pin Hello Testing`
 
 """
