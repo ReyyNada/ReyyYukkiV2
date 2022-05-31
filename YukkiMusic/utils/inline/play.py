@@ -81,6 +81,10 @@ def track_markup(_, videoid, user_id, channel, fplay):
             ),
         ],
         [
+            InlineKeyboardButton(text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/pantekyks"),
+            InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/mahadappa"),
+        ],
+        [
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
                 callback_data=f"forceclose {videoid}|{user_id}",
