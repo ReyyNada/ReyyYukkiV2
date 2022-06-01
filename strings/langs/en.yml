@@ -284,8 +284,8 @@ PL_B_6 : "↗️ ᴅᴇʟᴇᴛᴇ ᴘʟᴀʏʟɪsᴛ"
 PL_B_7 : "❗️ ʏᴇs, ɪ'ᴀᴍ sᴜʀᴇ. ᴅᴇʟᴇᴛᴇ ɪs"
 PL_B_8 : "🔢 ᴘʟᴀʏ ᴛᴏᴘ 10"
 PL_B_9 : "🤖 ᴘʟᴀʏ ɢʟᴏʙᴀʟ ᴛᴏᴘ 10 ᴛʀᴀᴄᴋᴀ"
-PL_B_10 : "🏘 ᴘʟᴀʏ ɢʀᴏᴜᴘ's Top 10 ᴛʀᴀᴄᴋs"
-PL_B_11 : "👤 ᴘʟᴀʏ ᴘᴇʀsᴏɴᴀʟ Top 10 ᴛʀᴀᴄᴋs"
+PL_B_10 : "🏘 ᴘʟᴀʏ ɢʀᴏᴜᴘ's ᴛᴏᴘ 10 ᴛʀᴀᴄᴋs"
+PL_B_11 : "👤 ᴘʟᴀʏ ᴘᴇʀsᴏɴᴀʟ ᴛᴏᴘ 10 ᴛʀᴀᴄᴋs"
 
 #Settings
 ST_B_1 : "🔊 ᴀᴜᴅ ǫᴜᴀʟɪᴛʏ"
@@ -332,8 +332,8 @@ SA_B_7 : "🔢 ɢʟᴏʙᴀʟ ᴛᴏᴘ 10 sᴛᴀᴛs"
 SA_B_8 : "🤖 ʙᴏᴛ sᴛᴀᴛs"
 
 #Queue
-QU_B_1 : "📑 Queued List"
-QU_B_2 : "Played {0} out of {1} Mins"
+QU_B_1 : "📑 ǫᴜᴇᴜᴅ ʟɪsᴛ"
+QU_B_2 : "ᴘʟᴀʏᴇᴅ {0} ᴏᴜᴛ ᴏғ {1} ᴍɪɴs"
 
 # Sudo Users [ If you are translating this to some other language .. you can leave all these strings in english language]
 
