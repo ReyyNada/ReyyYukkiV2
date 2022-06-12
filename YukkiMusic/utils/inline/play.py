@@ -9,7 +9,7 @@
 import random
 from pyrogram.types import InlineKeyboardButton
 selections = [
-    "┬┴┼┬┴┬┬┬┴",
+    "┬┴┼┴┬┬┬▄┴",
     "▀▄┬┴┼▀▄┬┴",
     "▄┬┼▀┬┴┬▀┴",
     "┬┴┼▀▄┬┬┬┴",
