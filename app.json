@@ -6,8 +6,8 @@
     "python3",
     "telegram",
     "bot",
-    "Yukki",
-    "YukkiMusicBot",
+    "XYukki",
+    "ReyyXYukki",
     "telegram-bot",
     "pyrogram"
     ],
@@ -75,7 +75,7 @@
       },
       "UPSTREAM_BRANCH": {
         "description": "Upstream Repo's Branch Name",
-        "value": "master",
+        "value": "dappa",
         "required": true
       }
     },
