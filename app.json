@@ -75,7 +75,7 @@
       },
       "UPSTREAM_BRANCH": {
         "description": "Upstream Repo's Branch Name",
-        "value": "dappa",
+        "value": "master",
         "required": true
       }
     },
