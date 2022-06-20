@@ -8,42 +8,14 @@
 # All rights reserved.
 import random
 from pyrogram.types import InlineKeyboardButton
-selections = [
-    "┬┴┼┴┬┬┬▄┴",
-    "▀▄┬┴┼▀▄┬┴",
-    "▄┬┼▀┬┴┬▀┴",
-    "┬┴┼▀▄┬┬┬┴",
-    "┬┴┼┬▄┬┬┬┴",
-    "┬▀┼┬┴┬┬┬▄",
-    "┬┴▄┬┴┬┬▀┴",
-    "┬┴┼▀┴▀┬▄┴",
-    "▀┴▄┬┴▄┬┬┴",
-    "┬▀┼▄┴▀┬┬┴",
-    "┬▀┼┬┴┬┬┬▄",
-    "┬┴┼┬┴┬┬┬┴",
-    "┬┴▄┬┴┬┬▀┴",
-]
+
 def stream_markup_timer(_, videoid, chat_id, played, dur):
     bar = random.choice(selections)
     buttons = [
         [
-            InlineKeyboardButton(
-                text=f"{played} {bar} {dur}",
-                callback_data="GetTimer",
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text=_["PL_B_2"],
-                callback_data=f"add_playlist {videoid}",
-            ),
+            
             InlineKeyboardButton(
                 text=_["PL_B_3"],  switch_inline_query_current_chat=""
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text=_["S_B_9"], url=f"https://t.me/mahadappa",
             ),
             InlineKeyboardButton(
                 text=_["S_B_9"], url=f"https://t.me/BdrlBukan",
@@ -59,12 +31,6 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 def telegram_markup_timer(_, chat_id, played, dur):
     bar = random.choice(selections)
     buttons = [
-        [
-            InlineKeyboardButton(
-                text=f"{played} {bar} {dur}",
-                callback_data="GetTimer",
-            )
-        ],
         [
             InlineKeyboardButton(
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
