@@ -12,8 +12,7 @@ from pyrogram.types import InlineKeyboardButton
 def stream_markup_timer(_, videoid, chat_id, played, dur):
     bar = random.choice(selections)
     buttons = [
-        [
-            
+        [          
             InlineKeyboardButton(
                 text=_["PL_B_3"],  switch_inline_query_current_chat=""
             ),
