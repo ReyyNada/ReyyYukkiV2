@@ -8,7 +8,8 @@
 # All rights reserved.
 
 import re
-import spotify
+
+import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 from youtubesearchpython.__future__ import VideosSearch
 
