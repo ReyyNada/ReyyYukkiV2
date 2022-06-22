@@ -9,7 +9,7 @@
 
 import re
 
-import Spotify
+import SpotifyAPI
 from spotipy.oauth2 import SpotifyClientCredentials
 from youtubesearchpython.__future__ import VideosSearch
 
