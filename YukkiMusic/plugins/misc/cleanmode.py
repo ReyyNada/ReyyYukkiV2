@@ -5,7 +5,7 @@
 # and is released under the "GNU v3.0 License Agreement".
 # Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
 #
-# All rights reserved.
+# All rights reserved y.
 
 import asyncio
 from datetime import datetime, timedelta
