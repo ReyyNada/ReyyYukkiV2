@@ -164,7 +164,7 @@ FUNGSI BOT SWASTA:
 /authorized - Periksa semua obrolan bot Anda yang diizinkan.
 
 FUNGSI PENYIARAN:
-/broadcast [Pesan atau Balas Pesan] - Menyiarkan pesan apa pun ke Obrolan yang Dilayani Bot.
+/gcast [Pesan atau Balas Pesan] - Menyiarkan pesan apa pun ke Obrolan yang Dilayani Bot.
 
 <u>opsi untuk siaran:
 -pin : Ini akan menyematkan pesan Anda
@@ -173,6 +173,6 @@ FUNGSI PENYIARAN:
 -assistant : Ini akan menyiarkan pesan Anda dari akun asisten bot Anda.
 -nobot: Ini akan memaksa bot Anda untuk tidak menyiarkan pesan
 
-Contoh: `/broadcast -user -assistant -pin Hello Testing`
+Contoh: `/gcast -user -assistant -pin Hello Testing`
 
 """
