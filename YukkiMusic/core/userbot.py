@@ -158,7 +158,7 @@ class Userbot(Client):
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Akun Asisten 1 gagal mengakses Grup log.  Pastikan Anda telah menambahkan asisten Anda ke grup log Anda dan dipromosikan sebagai admin!! "
+                    f"Akun Asisten 4 gagal mengakses Grup log.  Pastikan Anda telah menambahkan asisten Anda ke grup log Anda dan dipromosikan sebagai admin!! "
                 )
                 sys.exit()
             get_me = await self.four.get_me()
@@ -188,7 +188,7 @@ class Userbot(Client):
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Akun Asisten 1 gagal mengakses Grup log.  Pastikan Anda telah menambahkan asisten Anda ke grup log Anda dan dipromosikan sebagai admin!! "
+                    f"Akun Asisten 5 gagal mengakses Grup log.  Pastikan Anda telah menambahkan asisten Anda ke grup log Anda dan dipromosikan sebagai admin!! "
                 )
                 sys.exit()
             get_me = await self.five.get_me()
