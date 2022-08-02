@@ -12,7 +12,7 @@
 
 # Bot Commands
 PING_COMMAND : ["mping"]
-START_COMMAND : ["start"]
+START_COMMAND : ["mstart"]
 HELP_COMMAND : ["mhelp"]
 SETTINGS_COMMAND : ["msettings", "msetting"]
 RELOAD_COMMAND : ["admincache", "reload"]
