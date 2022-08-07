@@ -78,11 +78,11 @@ HELP_3 = """✅<u>**Bot Commands:**</u>
 
 HELP_4 = """✅<u>**Extra  Commands:**</u>
 /start - Mulai Bot Musik.
-/help - Dapatkan Menu Helper Perintah dengan penjelasan rinci tentang perintah.
-/ping- Ping Bot dan periksa statistik Ram, Cpu, dll dari Bot.
+/mhelp - Dapatkan Menu Helper Perintah dengan penjelasan rinci tentang perintah.
+/mping- Ping Bot dan periksa statistik Ram, Cpu, dll dari Bot.
 
 ✅<u>**Group Settings:**</u>
-/settings - Dapatkan pengaturan grup lengkap dengan tombol sebaris
+/msettings - Dapatkan pengaturan grup lengkap dengan tombol sebaris
 
 🔗 **Options in Settings:**
 
