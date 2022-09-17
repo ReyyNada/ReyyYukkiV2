@@ -339,15 +339,15 @@ SA_B_8 : "🤖 sᴛᴀᴛɪsᴛɪᴋ ʙᴏᴛ"
 QU_B_1 : "📑 ᴅᴀғᴛᴀʀ ᴀɴᴛʀɪᴀɴ"
 QU_B_2 : "ᴅɪᴍᴀɪɴᴋᴀɴ {0} ᴅᴀʀɪ {1} ᴍᴇɴɪᴛ"
 
-# Pengguna Sudo [ Jika Anda menerjemahkan ini ke bahasa lain .. Anda dapat meninggalkan semua string ini dalam bahasa Inggris]
+# Anggota Nabi [ Jika Anda menerjemahkan ini ke bahasa lain .. Anda dapat meninggalkan semua string ini dalam bahasa Inggris]
 
 #Sudo
 sudo_1 : "{0} sudah menjadi Nabi."
 sudo_2 : "Diangkat *{0}** Menjadi Nabi."
 sudo_3 : "Bukan bagian dari anggota Nabi."
 sudo_4 : "Diturunkan Pangkat Menjadi Manusia Biasa"
-sudo_5 : "⭐️<u> **Pemilik:**</u>\n"
-sudo_6 : "\n⭐️<u> **Anggota Nabi:**</u>\n"
+sudo_5 : "☀️<u> **Tuhan:**</u>\n"
+sudo_6 : "\n🌟<u> **Anggota Nabi:**</u>\n"
 sudo_7 : "Tidak Ada Anggota Nabi"
 
 #Memblokir
