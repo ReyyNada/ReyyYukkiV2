@@ -341,13 +341,13 @@ QU_B_2 : "Diputer {0} saka {1} Menit"
 # Sudo Users [ If you are translating this to some other language .. you can leave all these strings in english language]
 
 #Sudo
-sudo_1 : "{0} wis dadi pangguna sudo."
-sudo_2 : "Ditambahake *{0}** menyang pangguna sudo."
-sudo_3 : "Ora bagean saka Sudo Bot."
-sudo_4 : "Dibusak saka pangguna Sudo Bot"
-sudo_5 : "👑<u> **Pemilik:**</u>\n"
-sudo_6 : "\n👨‍🚀<u> **Panganggo Sudo:**</u>\n"
-sudo_7 : "Ora Pangguna Sudo"
+sudo_1 : "{0} wis dadi Anggota Nabi."
+sudo_2 : "Ditambahake *{0}** Dadi Nabi."
+sudo_3 : "Ora bagean saka Anggota Nabi ."
+sudo_4 : "Dibusak saka Anggota Nabi "
+sudo_5 : "☀️<u> **Tuhan:**</u>\n"
+sudo_6 : "\n🌟<u> **Anggota Nabi:**</u>\n"
+sudo_7 : "Ora Dadi Anggota Nabi"
 
 #Block
 block_1 : "{0} wis diblokir saka bot."
@@ -394,7 +394,7 @@ broad_1 : "**Broadcast {0} Obrolan dengan {1} Pin dari Bot.**"
 broad_2 : "Memulai Siaran Asisten..."
 broad_3 : "**Siaran Asisten:**\n\n"
 broad_4 : "Asisten {0} Disiarkan di {1} obrolan\n"
-broad_5 : "**Penggunaan**:\n/siarkan [PESAN] atau [Balas Pesan]"
+broad_5 : "**Penggunaan**:\n/gcast [PESAN] atau [Balas Pesan]"
 broad_6 : "Harap berikan beberapa teks untuk disiarkan."
 broad_7 : "**Broadcast {0} Pengguna.**"
 
