@@ -324,13 +324,13 @@ QU_B_2 : "ᴍᴀᴇɴ {0} ᴛɪɴᴀ {1} ᴍᴇɴɪᴛ"
 # Sudo Users [ If you are translating this to some other language .. you can leave all these strings in english language]
 
 #Sudo
-sudo_1 : "{0} geus jadi pamaké sudo."
-sudo_2 : "Tambihkeun *{0}** ka Pamaké sudo."
-sudo_3 : "Henteu bagian tina Sudo Bot."
-sudo_4 : "Dipiceun tina Sudo Bot Pamaké"
-sudo_5 : "👑<u> **ᴘᴀᴍɪʟɪᴋ:**</u>\n"
-sudo_6 : "\n👨‍🚀<u> **ʙᴀʙᴜ:**</u>\n"
-sudo_7 : "Henteu aya pangguna Sudo"
+sudo_1 : "{0} geus jadi Anggota Nabi."
+sudo_2 : "Tambihkeun *{0}** ka Anggota Nabi."
+sudo_3 : "Henteu bagian tina Anggota Nabi."
+sudo_4 : "Dipiceun tina Anggota Nabi"
+sudo_5 : "👑<u> **Tuhan:**</u>\n"
+sudo_6 : "\n👨‍🚀<u> **Nabi:**</u>\n"
+sudo_7 : "Henteu aya Anggota Nabi"
 
 #Blok
 block_1 : "{0} geus dipeungpeuk tina bot."
@@ -377,7 +377,7 @@ broad_1 : "**Siaran {0} Ngobrol jeung {1} Pin ti Bot.**"
 broad_2 : "Ngamimitian Asisten Siaran..."
 broad_3 : "**Asisten Siaran:**\n\n"
 broad_4 : "Asisten {0} Nyiarkeun dina {1} obrolan\n"
-broad_5 : "**Pamakéan**:\n/siarkeun [PESAN] atawa [Pesen Balasan]"
+broad_5 : "**Pamakéan**:\n/gcast [PESAN] atawa [Pesen Balasan]"
 broad_6 : "Punten nyayogikeun sababaraha terjemahan pikeun disiarkeun."
 broad_7 : "**Siaran {0} Pamaké.**"
 
