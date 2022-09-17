@@ -342,13 +342,13 @@ QU_B_2 : "ᴅɪᴍᴀɪɴᴋᴀɴ {0} ᴅᴀʀɪ {1} ᴍᴇɴɪᴛ"
 # Pengguna Sudo [ Jika Anda menerjemahkan ini ke bahasa lain .. Anda dapat meninggalkan semua string ini dalam bahasa Inggris]
 
 #Sudo
-sudo_1 : "{0} sudah menjadi pengguna sudo."
-sudo_2 : "Ditambahkan *{0}** ke Pengguna Sudo."
-sudo_3 : "Bukan bagian dari Sudo Bot."
-sudo_4 : "Dihapus dari Pengguna Sudo Bot"
+sudo_1 : "{0} sudah menjadi Nabi."
+sudo_2 : "Diangkat *{0}** Menjadi Nabi."
+sudo_3 : "Bukan bagian dari anggota Nabi."
+sudo_4 : "Diturunkan Pangkat Menjadi Manusia Biasa"
 sudo_5 : "⭐️<u> **Pemilik:**</u>\n"
-sudo_6 : "\n⭐️<u> **Pengguna Sudo:**</u>\n"
-sudo_7 : "Tidak Ada Pengguna Sudo"
+sudo_6 : "\n⭐️<u> **Anggota Nabi:**</u>\n"
+sudo_7 : "Tidak Ada Anggota Nabi"
 
 #Memblokir
 block_1 : "{0} sudah diblokir dari bot."
@@ -395,7 +395,7 @@ broad_1 : "**Pesan yang Disiarkan Dalam {0} Obrolan dengan {1} Pin dari Bot.**"
 broad_2 : "Memulai Siaran Asisten..."
 broad_3 : "**Siaran Asisten:**\n\n"
 broad_4 : "Asisten {0} Disiarkan di {1} obrolan\n"
-broad_5 : "**Penggunaan**:\n/broadcast [PESAN] atau [Balas Pesan]"
+broad_5 : "**Penggunaan**:\n/gcast [PESAN] atau [Balas Pesan]"
 broad_6 : "Harap berikan beberapa teks untuk disiarkan."
 broad_7 : "**Pesan yang Disiarkan ke {0} Pengguna.**"
 
