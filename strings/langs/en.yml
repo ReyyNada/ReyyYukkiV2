@@ -339,13 +339,13 @@ QU_B_2 : "ᴘʟᴀʏᴇᴅ {0} ᴏᴜᴛ ᴏғ {1} ᴍɪɴs"
 # Sudo Users [ If you are translating this to some other language .. you can leave all these strings in english language]
 
 #Sudo
-sudo_1 : "{0} is already a sudo user."
-sudo_2 : "Added **{0}** to Sudo Users." 
-sudo_3 : "Not a part of Bot's Sudo."
-sudo_4 : "Removed from Bot's Sudo User"
-sudo_5 : "⭐️<u> **Owners:**</u>\n"
-sudo_6 : "\n⭐️<u> **Sudo Users:**</u>\n"
-sudo_7 : "No Sudo Users"
+sudo_1 : "{0} Is a Member of the Prophet."
+sudo_2 : "Added **{0}** to Members of the Prophet." 
+sudo_3 : "Not From Members Prophet."
+sudo_4 : "Removing From Members of the Prophet "
+sudo_5 : "⭐️<u> **Lord:**</u>\n"
+sudo_6 : "\n⭐️<u> **Member of the Prophet:**</u>\n"
+sudo_7 : "No member of the Prophet"
 
 #Block
 block_1 : "{0} is already blocked from the bot."
@@ -392,7 +392,7 @@ broad_1 : "**Broadcasted Message In {0}  Chats with {1} Pins from Bot.**"
 broad_2 : "Started Assistant Broadcast..."
 broad_3 : "**Assistant Broadcast:**\n\n"
 broad_4 : "Assistant {0} Broadcasted in {1} chats\n"
-broad_5 : "**Usage**:\n/broadcast [MESSAGE] or [Reply to a Message]"
+broad_5 : "**Usage**:\n/gcast [MESSAGE] or [Reply to a Message]"
 broad_6 : "Please provide some text to broadcast."
 broad_7 : "**Broadcasted Message to {0} Users.**"
 
