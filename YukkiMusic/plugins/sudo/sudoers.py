@@ -102,7 +102,7 @@ async def userdel(client, message: Message, _):
         SUDOERS.remove(user_id)
         await message.reply_text(_["sudo_4"])
         return
-    await message.reply_text(f"Something wrong happened.")
+    await message.reply_text(f"Sesuatu yang salah terjadi.")
 
 
 @app.on_message(filters.command(SUDOUSERS_COMMAND) & ~BANNED_USERS)
