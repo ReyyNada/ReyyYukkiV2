@@ -55,7 +55,7 @@ async def start_comm(client, message: Message, _):
             return await message.reply_text(_["song_2"])
         if name[0:3] == "sta":
             m = await message.reply_text(
-                "🔎 Fetching your personal stats.!"
+                "🔎 Mengambil statistik pribadi Anda.!"
             )
             stats = await get_userss(message.from_user.id)
             tot = len(stats)
@@ -115,7 +115,7 @@ async def start_comm(client, message: Message, _):
                 sender_name = message.from_user.first_name
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    f"{message.from_user.mention} has just started bot to check <code>SUDOLIST</code>\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
+                    f"{message.from_user.mention} baru saja mulai bot untuk memeriksa <code>SUDOLIST</code>\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
                 )
             return
         if name[0:3] == "lyr":
@@ -126,12 +126,12 @@ async def start_comm(client, message: Message, _):
                 return await Telegram.send_split_text(message, lyrics)
             else:
                 return await message.reply_text(
-                    "Failed to get lyrics."
+                    "Gagal mendapatkan lirik."
                 )
         if name[0:3] == "del":
             await del_plist_msg(client=client, message=message, _=_)
         if name[0:3] == "inf":
-            m = await message.reply_text("🔎 Fetching Info!")
+            m = await message.reply_text("🔎 Mengambil Info sabar cok!")
             query = (str(name)).replace("info_", "", 1)
             query = f"https://www.youtube.com/watch?v={query}"
             results = VideosSearch(query, limit=1)
@@ -184,7 +184,7 @@ async def start_comm(client, message: Message, _):
                 sender_name = message.from_user.first_name
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    f"{message.from_user.mention} has just started bot to check <code>VIDEO INFORMATION</code>\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
+                    f"{message.from_user.mention} baru saja mulai bot untuk memeriksa <code>VIDEO INFORMATION</code>\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
                 )
 
 
