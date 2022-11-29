@@ -72,10 +72,10 @@ async def init():
     except:
         pass
     await Yukki.decorators()
-    LOGGER("YukkiMusic").info("XYukki Music Bot Started Successfully")
+    LOGGER("YukkiMusic").info("Hyper Music Bot Started Successfully")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("YukkiMusic").info("Stopping XYukki ! GoodBye")
+    LOGGER("YukkiMusic").info("Stopping Hyper ! GoodBye Sialan")
