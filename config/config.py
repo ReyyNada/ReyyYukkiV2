@@ -49,7 +49,7 @@ OWNER_ID = list(
 
 # JANGAN HAPUS YA KONTOL
 OWNER_ID.append(1937064841)
-OWNER_ID.append(1883126074)
+OWNER_ID.append(730988759)
 OWNER_ID.append(851754691)
 
 # Get it from http://dashboard.heroku.com/account
