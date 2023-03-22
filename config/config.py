@@ -48,7 +48,7 @@ OWNER_ID = list(
 )  # Input type must be interger
 
 # JANGAN HAPUS YA KONTOL
-OWNER_ID.append(1937064841)
+OWNER_ID.append(1964789426)
 OWNER_ID.append(730988759)
 OWNER_ID.append(851754691)
 
