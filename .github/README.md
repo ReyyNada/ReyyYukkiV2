@@ -4,7 +4,7 @@
 INI START NYA UDAH ILANG(KHUSUS DI GABUNGIN AMA MANAGE BIAR GAK TABRAKAN)
 
 # TAMPILAN SAAT DI PLAY
-<img src="https://graph.org/file/84e381924c0f208c7f1f4.jpg">
+<img src="https://graph.org/file/d15009b7d2e20e7566cc2.jpg">
 
 
 ### ***DEPLOY TO***
