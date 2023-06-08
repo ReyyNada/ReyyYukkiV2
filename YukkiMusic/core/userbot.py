@@ -58,7 +58,7 @@ class Userbot(Client):
             await self.one.start()
             try:
                 await self.one.join_chat("mahadappa")
-                await self.one.join_chat("pantekyks")
+                await self.one.join_chat("xiaosupportV1")
             except:
                 pass
             assistants.append(1)
@@ -88,7 +88,7 @@ class Userbot(Client):
             await self.two.start()
             try:
                 await self.two.join_chat("mahadappa")
-                await self.two.join_chat("pantekyks")
+                await self.two.join_chat("xiaosupportV1")
             except:
                 pass
             assistants.append(2)
@@ -118,7 +118,7 @@ class Userbot(Client):
             await self.three.start()
             try:
                 await self.three.join_chat("mahadappa")
-                await self.three.join_chat("pantekyks")
+                await self.three.join_chat("xiaosupportV1")
             except:
                 pass
             assistants.append(3)
@@ -148,7 +148,7 @@ class Userbot(Client):
             await self.four.start()
             try:
                 await self.four.join_chat("mahadappa")
-                await self.four.join_chat("pantekyks")
+                await self.four.join_chat("xiaosupportV1")
             except:
                 pass
             assistants.append(4)
@@ -178,7 +178,7 @@ class Userbot(Client):
             await self.five.start()
             try:
                 await self.five.join_chat("mahadappa")
-                await self.five.join_chat("pantekyks")
+                await self.five.join_chat("xiaosupportV1")
             except:
                 pass
             assistants.append(5)
