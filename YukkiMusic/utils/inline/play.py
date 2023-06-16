@@ -63,7 +63,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
 def stream_markup(_, videoid):
     buttons = [
         [
-             
+     
             InlineKeyboardButton(
                 text=_["S_B_9"], url=f"https://t.me/mahadappa",
             ),
@@ -86,6 +86,13 @@ def telegram_markup(_):
             InlineKeyboardButton(
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
             ),
+            InlineKeyboardButton(
+
+                text=_["S_B_9"], url=f"https://t.me/mahadappa",
+
+            ),
+         ],
+        [
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
             ),
