@@ -17,7 +17,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_3"],  switch_inline_query_current_chat=""
             ),
             InlineKeyboardButton(
-                text=_["S_B_9"], url=f"https://t.me/fuckmetele",
+                text=_["S_B_9"], url=f"https://t.me/mahadappa",
             ),
         ],
         [
@@ -65,7 +65,7 @@ def stream_markup(_, videoid):
         [
      
             InlineKeyboardButton(
-                text=_["S_B_9"], url=f"https://t.me/fuckmetele",
+                text=_["S_B_9"], url=f"https://t.me/mahadappa",
             ),
 
 
@@ -88,7 +88,7 @@ def telegram_markup(_):
             ),
             InlineKeyboardButton(
 
-                text=_["S_B_9"], url=f"https://t.me/fuckmetele",
+                text=_["S_B_9"], url=f"https://t.me/mahadappa",
 
             ),
          ],
