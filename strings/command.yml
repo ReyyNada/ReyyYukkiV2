@@ -55,9 +55,9 @@ RESTART_COMMAND : ["restart"]
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["addsudo"]
-DELSUDO_COMMAND : ["delsudo"]
-SUDOUSERS_COMMAND : ["sudolist"]
+ADDSUDO_COMMAND : ["maddsudo"]
+DELSUDO_COMMAND : ["mdelsudo"]
+SUDOUSERS_COMMAND : ["msudolist"]
 
 #Broadcast 
 BROADCAST_COMMAND : ["gcast"]
@@ -103,10 +103,10 @@ BLOCKED_COMMAND : ["blockedusers"]
 SPEEDTEST_COMMAND : ["speedtest"]
 
 #Voice chat commands
-ACTIVEVC_COMMAND : ["vcs"]
-ACTIVEVIDEO_COMMAND : ["vcv"]
+ACTIVEVC_COMMAND : ["activevc"]
+ACTIVEVIDEO_COMMAND : ["activevd"]
 
 #Gban Commands
 GBAN_COMMAND : ["mgban"]
 UNGBAN_COMMAND : ["mungban"]
-GBANNED_COMMAND : ["mgbannedusers"]
+GBANNED_COMMAND : ["mgbanlist"]
