@@ -64,7 +64,7 @@ HELP_3 = """✅<u>**Bot Commands:**</u>
 
 /stats - Dapatkan 10 Trek Global Stats Teratas, 10 Pengguna Bot Teratas, 10 Obrolan Teratas di bot, 10 Teratas Dimainkan dalam obrolan, dll.
 
-/sudolist - Periksa Pengguna Sudo dari Bot Musik Yukki
+/msudolist - Periksa Pengguna Sudo dari Bot Musik Yukki
 
 /lyrics [Music Name] - Mencari Lirik untuk Musik tertentu di web.
 
@@ -109,8 +109,8 @@ HELP_4 = """✅<u>**Extra  Commands:**</u>
  3️⃣ Jenis Putar [Semua Orang atau Admin] - Jika admin, hanya admin yang ada di grup yang dapat memutar musik di obrolan suara."""
 
 HELP_5 = """🔰TAMBAH & HAPUS PENGGUNA SUDO :
-/addsudo [Nama pengguna atau Balas ke pengguna]
-/delsudo [Nama pengguna atau Balas ke pengguna]
+/maddsudo [Nama pengguna atau Balas ke pengguna]
+/mdelsudo [Nama pengguna atau Balas ke pengguna]
 
 🛃**<u>HEROKU:</u>**
 /usage - Dyno Usage.
@@ -130,8 +130,8 @@ PERINTAH BOT:
 /autoend [enable|disable] - Aktifkan Auto stream end setelah 3 menit jika tidak ada yang mendengarkan.
 
 📈**<u>STATS COMMANDS:</u>**
-/vcs - Periksa obrolan suara aktif di bot.
-/vcv - Periksa panggilan video aktif di bot.
+/activevc - Periksa obrolan suara aktif di bot.
+/activevd - Periksa panggilan video aktif di bot.
 /stats - Periksa Statistik Bot
 
 ⚠️**<u>BLACKLIST CHAT FUNCTION:</u>**
@@ -152,7 +152,7 @@ FUNGSI TERBLOKIR:
 FUNGSI GBAN:
 /mgban [Nama Pengguna atau Balas ke pengguna] - Gban pengguna dari obrolan yang dilayani bot dan hentikan dia menggunakan bot Anda.
 /mungban [Nama Pengguna atau Balas ke pengguna] - Hapus pengguna dari Daftar gbanned Bot dan izinkan dia menggunakan bot Anda
-/mgbannedusers - Periksa Daftar Pengguna Gbanned
+/mgbanlist - Periksa Daftar Pengguna Gbanned
 
 🎥**<u>FUNGSI VIDEOCALL:**
 /set_video_limit [Jumlah Obrolan] - Tetapkan Jumlah Obrolan maksimum yang diizinkan untuk Panggilan Video dalam satu waktu.  Default untuk 3 obrolan.
