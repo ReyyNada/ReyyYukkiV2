@@ -62,7 +62,7 @@ ForcePlay Commands = playforce , vplayforce , cplayforce
 
 HELP_3 = """✅<u>**Bot Commands:**</u>
 
-/mstats - Dapatkan 10 Trek Global Stats Teratas, 10 Pengguna Bot Teratas, 10 Obrolan Teratas di bot, 10 Teratas Dimainkan dalam obrolan, dll.
+/stats - Dapatkan 10 Trek Global Stats Teratas, 10 Pengguna Bot Teratas, 10 Obrolan Teratas di bot, 10 Teratas Dimainkan dalam obrolan, dll.
 
 /msudolist - Periksa Pengguna Sudo dari Bot Musik Yukki
 
@@ -132,7 +132,7 @@ PERINTAH BOT:
 📈**<u>STATS COMMANDS:</u>**
 /activevc - Periksa obrolan suara aktif di bot.
 /activevd - Periksa panggilan video aktif di bot.
-/stats - Periksa Statistik Bot
+/mstats - Periksa Statistik Bot
 
 ⚠️**<u>BLACKLIST CHAT FUNCTION:</u>**
 /blacklistchat [CHAT_ID] - Blacklist any chat from using Music Bot
