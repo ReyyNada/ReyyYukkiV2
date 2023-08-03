@@ -62,7 +62,7 @@ ForcePlay Commands = playforce , vplayforce , cplayforce
 
 HELP_3 = """✅<u>**Bot Commands:**</u>
 
-/stats - Dapatkan 10 Trek Global Stats Teratas, 10 Pengguna Bot Teratas, 10 Obrolan Teratas di bot, 10 Teratas Dimainkan dalam obrolan, dll.
+/mstats - Dapatkan 10 Trek Global Stats Teratas, 10 Pengguna Bot Teratas, 10 Obrolan Teratas di bot, 10 Teratas Dimainkan dalam obrolan, dll.
 
 /msudolist - Periksa Pengguna Sudo dari Bot Musik Yukki
 
